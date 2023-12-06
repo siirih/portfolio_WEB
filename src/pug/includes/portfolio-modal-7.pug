@@ -1,0 +1,26 @@
+// Portfolio Modal 7
+#portfolioModal7.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal7', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 5: Node.js ja MariaDB
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio7.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävässä luotiin Node.js REST API, jossa käytettiin express:iä ja MariaDb:tä. Tehtävään oli valmis pohjakoodi, johon täydennettiin videon mukaisesti tietokantasovellus. Koodiin tehtiin ensin videon perusteella GET ja POST metodit, jonka jälkeen itsenäisesti lisättiin PUT ja DELETE metodit.<br><br> Videon ohjeita soveltaen PUT ja DELETE metodit oli helppo tehdä. Suurimmaksi ongelmaksi osoittautui sql kyselyiden syntaksin kirjoittaminen oikein, mutta muutamalla yrityksellä sekin onnistui. <br><br> Tehtävä auttoi minua ymmärtämään tietokantojen käytöstä enemmän. Testasin metodien toimintaa Postman sovelluksella. Mielestäni tehtävä oli onnistunut enkä tekisi mitää eri tavalla.<br><br> <a href="https://github.com/siirih/WEB">Github -linkki</a>
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

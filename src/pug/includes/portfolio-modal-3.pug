@@ -1,0 +1,26 @@
+// Portfolio Modal 3
+#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal3', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 2b: Javascript -perusteet, teht 2
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio3.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävässä tehtiin puhelinluettelo, josta voidaan etsiä numeroa nimen perusteella sekä lisätä uusi numero. <br><br> Tein yksinkertaisen sivun, jossa haku ominaisuus sekä lisää uusi ominaisuus. Haun voi suorittaa lisäämällä tekstikenttään nimen ja painamalla painiketta, jolloin näkyville tulee haun tulos. Lisää uusi toiminnolle syötetään nimi ja numero. Napin painalluksesta tiedot tallentuvat ja nimeä voi nyt etsiä haku toiminnosta. Haku ja lisäys käyttävän JavaScript funktioita toimintojen suorittamiseen. <br><br> En kohdannut ongelmia tehtävää tehdessä enkä tekisi nyt mitään eri tavalla. <br><br> <a href="https://github.com/siirih/JS_2">Github -linkki</a>
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

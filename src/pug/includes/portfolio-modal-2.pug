@@ -1,0 +1,26 @@
+// Portfolio Modal 2
+#portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal2', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 2a: Javascript -perusteet, teht 1
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio2.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävässä piti tehdä sovellus, joka kysyy syötettävän sanan ja testaa, onko sana palindromi. <br><br> Tehtävässä olisi riittänyt komentorivillä toimiva ratkaisu, mutta en silloin sitä tajunnut, joten tein HTML pohjaisen sivun, jossa käytettiin JavaScriptiä sanan tarkistamiseen. <br><br> Tehtävä sujui hyvin ja ongelmitta. Jos lähtisin kuitenkin nyt tekemään sitä uudellee, tekisin komentorivillä suoritettavan ratkaisun, sekä korjaisin funktion parametrin merkkijonoksi. <br><br> <a href="https://github.com/siirih/JS_1">Github -linkki</a>
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

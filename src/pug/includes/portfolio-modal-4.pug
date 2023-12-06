@@ -1,0 +1,26 @@
+// Portfolio Modal 4
+#portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal4', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 3: Urheilu 1
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio4.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävässä määriteltiin olio-ohjelmointikielelle ominainen luokkamäärittely ja periytyminen JavaScript-kielellä. Ensin määriteltiin yliluokka Henkilo, joka sisältää ihmisen henkilötietoja. Sitten määriteltiin luokka Urheilija, joka perii Henkilo-luokan ja toteuttaa saantifunktiot Urheilija-luokalle merkityksellisiin attribuutteihin.<br><br> Koodi toimii node.js-tulkissa ja siihen on lisätty esimerkkejä Urheilija-oliosta, jotka tulevat näkyviin, kun ohjelma ajetaan.<br><br> Minulla oli hieman ongelmia get- ja set-metodien teossa sekä konstruktorien parametrien määrittelyssä enkä ollut varma käytinkö niitä edes oikein. En ollut myöskään täysin varma ymmärsinkö tehtävänantoa täysin oikein. Joka tapauksessa tein parhaan ymmärrykseni mukaan ohjelman, joka mielestäni täytti vaatimukset. En ole varma haluaisinko tehdä mitää eri tavalla tällä hetkellä. Kurssin edetessä olen saanut paremman ymmärryksen luokista, mutta osa metodeista on vielä hieman epäselivä.<br><br> <a href="https://github.com/siirih/Urheilu1">Github -linkki</a>
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

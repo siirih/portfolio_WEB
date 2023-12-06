@@ -1,0 +1,26 @@
+// Portfolio Modal 6
+#portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal6', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 4b
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio6.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävässä luotiin käyttöliittymä edellä tehtyyn (tehtävä 4a) REST APIiin. Käyttöliitymän avulla voidaan käyttää aikasemmin luotuja GET ja POST metodeja. <br><br> Tein hyvin yksinkertaisen käyttöliittymän, jonka avulla voidaan lisätä uusi sanapari sekä hakea englannin kielistä sanaa kirjoittamalla suomenkielinen sana hakukenttään. Käyttöliittymä käyttää aikasemmin tehtyjä GET ja POST metodejä hyödykseen toimintojen suorittamisessa. <br><br> Tehtävän teko onnistui ongelmitta. Nyt olisin tehnyt käyttöliittymästä edes hieman paremman näköisen.<br><br> <a href="https://github.com/siirih/REST2">Github -linkki</a>
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

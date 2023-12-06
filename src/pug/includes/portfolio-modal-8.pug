@@ -1,0 +1,26 @@
+// Portfolio Modal 8
+#portfolioModal8.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal8', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 6: Urheilija 2
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio8-1.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävässä toteutettiin JavaScript-palvelinsovellus, joka tarjoaa REST-rajapinnan kautta tiedon urheilijoista.<br><br> Aloitin tekemällä tietokannan sekä REST ja React pohjat. Metodit oli helppo tehdä aiempien esimerkkien perusteella. Bootstrap teeman käyttäminen käyttöliittymässä ei kuitenkaan minulta onnistunut. En saanut teemaa näkymään oikein, joten päädyn tekemään ilman valmista teemaa, mutta käytin verkosta löytämääni videota ohjeena eri komponenttien tekoon bootstrapin avulla.<br><br> Päädyin tekemään käyttöliittymään kolme sivua. Etusivulla kerrotaan mitä käyttöliittymällä voi tehdä. Lista urheilijoista sivulla näytetään lista urheilijoista, jotka ovat tietokannassa. Katso lisää painikkeella avautuu lisää tietoa, Muokkaa painikkeella voi muokata tietoja ja Poista painikkeella poistaa kaikki urheilijan tiedot tietokannasta. Lisää uusi urheilija sivulla voi lisätä uuden urheilijan tietokantaan.<br><br> Olisin halunnut tehtä käyttöliittymän siten, että urheilijat näkyisivät sivupalkissa, mutta en saanut sitä toimimaan tietokannan kanssa, joten päädyn ratkaisuun, joka on saman tyylinen kuin aiemmin tehty numero esimerkki.<br><br> <a href="https://github.com/siirih/WEB_T6">Github -linkki</a>
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

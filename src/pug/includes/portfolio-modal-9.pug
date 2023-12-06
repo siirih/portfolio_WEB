@@ -1,0 +1,26 @@
+// Portfolio Modal 9
+#portfolioModal9.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal9', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 7: Portfolio
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio9.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävänä oli luoda tämä portfolio, jota luet tällä hetkellä.<br><br> Kuten varmaan huomasit, tästä portfoliosta löytyy kaikki tekemäni tehtävät sekä palaute kurssista. Tässä käyttämäni teema: <a href="https://github.com/BlackrockDigital/startbootstrap-freelancer">Start Bootstrap - Freelancer</a><br><br>Onnistuin vihdoin käyttämään valmista bootstrap teemaa. Ongelmana taisi aikaisemmin olla se, että piti tehdä paljon eri komponentteja, koska piti käyttää Reactia, enkä osannut liittää niitä valmiiseen käyttöliittymään.<br><br> Tämän portfolion tekeminen on ollut ihan mukavaa ja on ollut ihan hyödyllistä käydä läpi aikaisemmin tehtyjä tehtäviä. 
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

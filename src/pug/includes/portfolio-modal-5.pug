@@ -1,0 +1,26 @@
+// Portfolio Modal 5
+#portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal5', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tehtävä 4a
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/portfolio5.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Tehtävässä tehtiin REST API sanakirjaa varten. Hakua varten luotiin GET metodi ja sanojen lisäystä varten luotiin POST metodi.<br><br> Tein sanakirjan käyttäen tekstitiedostoa, jota käytin metodeilla readFileSync ja appendFileSync. GET metodin teko onnistui ongelmitta, mutta POST metodi aiheutti hieman hankaluuksia. Vaikeinta tässä oli saada uusi sanapari seuraavalle tiedoston riville ilman omituisia välejä yms. Päädyin sellaiseen ratkaisuun, että ennen uutta sanaparia lisätään uusi tyhjä rivi ja lisätään sanapari sille riville. Testasin GET ja POST metodien toimintaa Postman sovelluksen avulla.<br><br> Olisin halunnut löytää paremman ratkaisun POST metodissa tiedostoon kirjoittamiselle. Mietin voisiko jotenkin tarkastaa onko rivi tyhjä ennen kirjoittamista, mutta en siinä onnistunut.<br><br> <a href="https://github.com/siirih/REST">Github -linkki</a>
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window
